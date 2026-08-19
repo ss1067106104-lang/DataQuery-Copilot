@@ -1,4 +1,4 @@
-# AskData 长短期记忆
+# DataQuery 长短期记忆
 
 该模块不依赖 Web 框架，可由后续 API、动态路由器或当前 Text2SQL Pipeline 直接调用。
 
