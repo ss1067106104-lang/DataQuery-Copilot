@@ -1,4 +1,4 @@
-# askdata_pipeline
+# dataquery_pipeline
 
 端到端 Text2SQL Demo。
 
