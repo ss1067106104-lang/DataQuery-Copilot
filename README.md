@@ -1,4 +1,4 @@
-# AskData Text2SQL Demo
+# DataQuery Text2SQL Demo
 
 本项目演示从自然语言 Query 到 SQL 生成与执行的端到端流程。
 
