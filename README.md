@@ -56,7 +56,6 @@ MCP路由执行
 
 路由实现位于 `askdata_pipeline/routing.py`，统一编排入口位于 `askdata_pipeline/dynamic_service.py`，对话问答实现位于 `askdata_pipeline/data_qa.py`。
 
-暂不包含结果校验与回调修正。
 
 ## 长短期记忆
 
