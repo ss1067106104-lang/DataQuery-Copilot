@@ -19,7 +19,7 @@ askdata\_pipeline/
 ## 1\. 创建测试数据库
 
 ```bash
-python -m askdata\_pipeline.create\_demo\_db
+python -m dataquery\_pipeline.create\_demo\_db
 ```
 
 会生成：
@@ -37,7 +37,7 @@ sql/create\_trade\_demo.sql
 ## 2\. 只测试SQL执行环境
 
 ```bash
-python -m askdata\_pipeline.sql\_execution\_demo
+python -m dataquery\_pipeline.sql\_execution\_demo
 ```
 
 这个 Demo 不走大模型，只验证 MCP 路由和 SQLite 执行。
@@ -45,13 +45,13 @@ python -m askdata\_pipeline.sql\_execution\_demo
 ## 3\. 运行端到端流程
 
 ```bash
-python -m askdata\_pipeline.end\_to\_end\_demo
+python -m dataquery\_pipeline.end\_to\_end\_demo
 ```
 
 ## 4\. 运行动态路由 + 长短期记忆 Demo
 
 ```bash
-python askdata\_pipeline/memory\_end\_to\_end\_demo.py
+python dataquery\_pipeline/memory\_end\_to\_end\_demo.py
 ```
 
 统一入口为 `DynamicAskDataService`：
