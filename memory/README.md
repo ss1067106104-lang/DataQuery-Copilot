@@ -62,7 +62,7 @@ memory.save\_structured\_result(
 接入现有 Text2SQL：
 
 ```python
-from askdata\_pipeline import AskDataText2SQLPipeline, DynamicAskDataService
+from dataquery\_pipeline import AskDataText2SQLPipeline, DynamicAskDataService
 
 service = DynamicAskDataService(AskDataText2SQLPipeline(), memory)
 response = service.run(
@@ -84,13 +84,13 @@ service.save\_result\_to\_personal\_knowledge\_base(
 直接运行普通 Python 文件：
 
 ```bash
-python askdata\_pipeline/memory\_end\_to\_end\_demo.py
+python dataquery\_pipeline/memory\_end\_to\_end\_demo.py
 ```
 
 或按模块运行：
 
 ```bash
-python -m askdata\_pipeline.memory\_end\_to\_end\_demo
+python -m dataquery\_pipeline.memory\_end\_to\_end\_demo
 ```
 
 Demo 会依次展示第一轮 Text2SQL、短期窗口、用户主动保存长期记忆、第二轮长期召回、异步摘要完成后的最终上下文。默认记忆文件为 `runtime\_data/memory\_demo.db`。
