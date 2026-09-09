@@ -54,15 +54,15 @@ MCP路由执行
 
 动态路由会先结合长短期记忆判断用户意图：需要新业务数据时进入上述 Text2SQL 链路；结果解释、指标说明、历史结果追问和业务知识问答进入 `data_qa` 链路，不执行数据库查询。
 
-路由实现位于 `askdata_pipeline/routing.py`，统一编排入口位于 `askdata_pipeline/dynamic_service.py`，对话问答实现位于 `askdata_pipeline/data_qa.py`。
+路由实现位于 `dataquery_pipeline/routing.py`，统一编排入口位于 `dataquery_pipeline/dynamic_service.py`，对话问答实现位于 `dataquery_pipeline/data_qa.py`。
 
 
 ## 长短期记忆
 
-项目已支持滑动窗口、异步增量摘要、用户主动长期记忆存储，以及可选个人知识库召回。详细设计与调用方式见 [askdata_memory/README.md](askdata_memory/README.md)。
+项目已支持滑动窗口、异步增量摘要、用户主动长期记忆存储，以及可选个人知识库召回。详细设计与调用方式见 [dataquery_memory/README.md](askdata_memory/README.md)。
 
 运行长短期记忆端到端 Demo：
 
 ```bash
-python askdata_pipeline/memory_end_to_end_demo.py
+python dataquery_pipeline/memory_end_to_end_demo.py
 ```
