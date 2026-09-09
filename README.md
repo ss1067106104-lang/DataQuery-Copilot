@@ -17,7 +17,7 @@ askdata_memory/       # 长短期记忆、个人知识库召回与会话编排
 ## 端到端运行
 
 ```bash
-python -m askdata_pipeline.end_to_end_demo
+python -m dataquery_pipeline.end_to_end_demo
 ```
 
 当前 Demo 会自动创建 SQLite 测试库：
