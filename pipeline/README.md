@@ -5,7 +5,7 @@
 ## 目录结构
 
 ```text
-askdata\_pipeline/
+dataquery\_pipeline/
 ├── \_\_init\_\_.py
 ├── demo\_data.py             # 测试数据库创建与业务Schema元数据
 ├── create\_demo\_db.py        # 单独创建SQLite测试库
