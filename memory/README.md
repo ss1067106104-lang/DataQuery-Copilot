@@ -27,7 +27,7 @@
 ## 基本用法
 
 ```python
-from askdata\_memory import ConversationMemoryService
+from dataquery\_memory import ConversationMemoryService
 
 memory = ConversationMemoryService()
 
