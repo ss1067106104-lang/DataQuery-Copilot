@@ -10,8 +10,8 @@ schema_retrieval/     # Schema检索与SchemaGraph构建
 cot_planning/         # CoT四元组规划
 sql_generation/       # SQL生成
 mcp_router/           # MCP路由执行
-askdata_pipeline/     # 端到端流程编排
-askdata_memory/       # 长短期记忆、个人知识库召回与会话编排
+dataquery_pipeline/     # 端到端流程编排
+dataquery_memory/       # 长短期记忆、个人知识库召回与会话编排
 ```
 
 ## 端到端运行
